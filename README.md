@@ -14,16 +14,16 @@
 This part was made using R language.
 
 Some steps was required: 
-  1.Encoding categorical data. 
+  -Encoding categorical data. 
   The dependent variable (Benign = B and Malign = M) is alphabetic and the independent variables are numerical. So, it was necessary to change the dependent variable into numerical values.
   
-  2.Counting null values
+  -Counting null values
   This step is important because no data can be rejected.
   
-  3.Feature scaling independent variables
+  -Feature scaling independent variables
   It prevents the intensity of a data being a criterion of importance.
   
-  4.Building the optimal model using Backword Elimination
+  -Building the optimal model using Backword Elimination
   At the end of the code, 8 independent variables were chosen as the best predictors.
   
 ## Classification
@@ -32,12 +32,12 @@ This part was made using Python.
 
 ## Data Preprocessing
  
- 1.Importing the Dataset
- 2.Separating independent variables and the dependent variable
- 3.Selecting only feature importances
- 4.Encoding the Dependent Variable
- 5.Splitting the dataset into the Training set and Test set
- 6.Feature Scaling
+ -Importing the Dataset
+ -Separating independent variables and the dependent variable
+ -Selecting only feature importances
+ -Encoding the Dependent Variable
+ -Splitting the dataset into the Training set and Test set
+ -Feature Scaling
   
 ## Building Classification Algorithm
 
