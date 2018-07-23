@@ -7,7 +7,7 @@
   http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29
 
 ## Data Set Information
-  Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.More details is available on: http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names
+  Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.For more information please visit http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names
   
 ## Analysing and choosing the best features of the dataset
 
@@ -15,17 +15,13 @@ This part was made using R language.
 
 Some steps was required: 
 
-  1. Encoding categorical data. 
-  The dependent variable (Benign = B and Malign = M) is alphabetic and the independent variables are numerical. So, it was necessary to change the dependent variable into numerical values.
+  1. Encoding categorical data. The dependent variable (Benign = B and Malign = M) is alphabetic and the independent variables are numerical. So, it was necessary to change the dependent variable into numerical values.
   
-  2. Counting null values
-  This step is important because no data can be rejected.
+  2. Counting null values. This step is important because no data can be rejected.
   
-  3. Feature scaling independent variables
-  It prevents the intensity of a data being a criterion of importance.
+  3. Feature scaling independent variables. It prevents the intensity of a data being a criterion of importance.
   
-  4. Building the optimal model using Backword Elimination
-  At the end of the code, 8 independent variables were chosen as the best predictors.
+  4. Building the optimal model using Backword Elimination. At the end of the code, 8 independent variables were chosen as the best predictors.
   
 ## Classification
 
