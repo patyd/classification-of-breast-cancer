@@ -1,7 +1,7 @@
 # Classification of Breast Cancer
 
 # Resume
-  This project was made to classify breast cancer as benign or malign.
+  This project was made to classify breast cancer as benign or malign using Random Forest.
   
 # Data source
   http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29
