@@ -1,4 +1,4 @@
-# Classification of Breast Cancer
+# Breast Cancer Classification (Diagnostic)
 
 # Resume
   This project was made to classify breast cancer as benign or malign using Random Forest.
